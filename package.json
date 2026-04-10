@@ -1,0 +1,31 @@
+{
+  "name": "fivelog",
+  "version": "1.0.0",
+  "description": "Beautiful Console Logger",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "console",
+    "colorful",
+    "color"
+  ],
+  "homepage": "https://github.com/5seg/fivelog#readme",
+  "scripts": {
+    "build": "npm run tsc",
+    "tsc": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/5seg/fivelog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5seg/fivelog.git"
+  },
+  "author": "5seg",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
